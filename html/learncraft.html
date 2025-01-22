@@ -1,74 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M4lw4re4rt</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M4lw4re4rt</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-        <header>
-                <div class="glitch" data-text="M4LW4RE4RT">M4LW4RE4RT</div>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="./about.html">About</a></li>
-                        <li><a href="./portfolio.html">Portfolio</a></li>
-                        <li><a href="./conventions.html">Conventions</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-        </header>
+    <header>
+        <div class="glitch" data-text="M4LW4RE4RT">M4LW4RE4RT</div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./conventions.html">Conventions</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
 
-        <main>
-            <section>
-                    <h1>LearnCraft Documentation</h1>
-                    <p>Welcome to the documentation for the LearnCraft project. This project is designed to help study in a gamified environment.</p>
-            </section>
-            <section>
-                    <h2>Installation</h2>
-                    <p>To install LearnCraft, follow these steps:</p>
-                    <ol>
-                            <li>Clone the repository: <code>git clone https://github.com/m4lw4re4rt/learncraft.git</code></li>
-                            <li>Navigate to the project directory: <code>cd learncraft</code></li>
-                            <li>Install the required dependencies: <code>pip install -r requirements.txt</code></li>
-                    </ol>
-            </section>
+    <div class="back-to-portfolio">
+      <a href="./portfolio.html" class="btn">< Back to Portfolio</a>
+    </div>
 
-            <h2>Gallery</h2>
-            <section>
-                    <div class="learncraft-gallery">
-                        <img src="../images/lc_home.jpeg" alt="LearnCraft Image 1">
-                        <img src="../images/lc_quest_create.jpeg" alt="LearnCraft Image 2">
-                        <img src="../images/lc_quests.jpeg" alt="LearnCraft Image 3">
-                        <img src="../images/lc_profile.jpeg" alt="LearnCraft Image 4">
-                    </div>
-            </section>
-        </main>
-
-        <footer>
-                <div class="social-media">
-                        <a href="https://www.instagram.com/m4lw4re4rt" target="_blank" aria-label="Instagram"></a>
-                                <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://www.tumblr.com/blog/m4lw4re4rt" target="_blank" aria-label="Tumblr">
-                                <i class="fab fa-tumblr"></i>
-                        </a>
-                        <a href="https://www.tiktok.com/@m4lw4re4rt" target="_blank" aria-label="TikTok"></a>
-                                <i class="fab fa-tiktok"></i>
-                        </a>
-                        <a href="https://www.twitch.tv/m4lw4re4rt" target="_blank" aria-label="Twitch"></a>
-                                <i class="fab fa-twitch"></i>
-                        </a>
-                        <a href="https://www.patreon.com/m4lw4re4rt" target="_blank" aria-label="Patreon">
-                                <i class="fab fa-patreon"></i>
-                        </a>
-                        <a href="https://discord.gg/art-is-hard-925071982154887168" target="_blank" aria-label="Discord">
-                                <i class="fab fa-discord"></i>
-                        </a>
+    <main>
+        <h1>LearnCraft</h1>
+        <p>Welcome to the documentation for the LearnCraft project. This project is designed to help study in a gamified environment.</p>
+        <h2>Installation</h2>
+        <p>To install LearnCraft, follow these steps:</p>
+        <ul>
+                <li>Clone the repository: git clone <a href="https://github.com/m4lw4re4rt/learncraft.git">https://github.com/m4lw4re4rt/learncraft.git</a> </li>
+                <li>Navigate to the project directory: <code>cd learncraft</code></li>
+                <li>Install the required dependencies: <code>pip install -r requirements.txt</code></li>
+        </ul>
+        <h2>Gallery</h2>
+        <section class="concept-art">
+                <div class="gallery">
+                  <a href="../images/lc_home.jpeg" data-title="Home Page">
+                    <img src="../images/lc_home.jpeg" alt="home">
+                  </a>
+                  <a href="../images/lc_quest_create.jpeg" data-title="Create Quest">
+                    <img src="../images/lc_quest_create.jpeg" alt="create quest">
+                  </a>
+                  <a href="../images/lc_quests.jpeg" data-title="Quests">
+                    <img src="../images/lc_quests.jpeg" alt="quests">
+                  </a>
+                  <a href="../images/lc_profile.jpeg" data-title="Profile">
+                    <img src="../images/lc_profile.jpeg" alt="profile">
+                  </a>
                 </div>
-        </footer>   
-        <script src="../scripts.js"></script>
+        </section>
+    </main>
+
+    <!-- Lightbox HTML -->
+        <div id="lightbox" class="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <img class="lightbox-content" id="lightbox-img">
+                <div id="lightbox-caption"></div>
+        </div>
+
+    <footer>
+      <div class="social-media">
+          <a href="https://www.instagram.com/m4lw4re4rt" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://bsky.app/profile/m4lw4re4rt.bsky.social" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.tumblr.com/blog/m4lw4re4rt" target="_blank" aria-label="Behance">
+            <i class="fab fa-tumblr"></i>
+          </a>
+          <a href="https://www.tiktok.com/@m4lw4re4rt" target="_blank" aria-label="ArtStation">
+            <i class="fab fa-tiktok"></i>
+          </a>
+          <a href="https://www.twitch.tv/m4lw4re4rt" target="_blank" aria-label="ArtStation">
+            <i class="fab fa-twitch"></i>
+          </a>
+          <a href="https://www.patreon.com/m4lw4re4rt" target="_blank" aria-label="ArtStation">
+            <i class="fab fa-patreon"></i>
+          </a>
+          <a href="https://discord.gg/art-is-hard-925071982154887168" target="_blank" aria-label="ArtStation">
+            <i class="fab fa-discord"></i>
+          </a>
+        </div>
+        <div>
+         <p>&copy; 2025 Mika Engelmann. All Rights Reserved.</p>
+        </div>
+  </footer>
+    <script src="../scripts.js"></script>
+ 
 </body>
 </html>
