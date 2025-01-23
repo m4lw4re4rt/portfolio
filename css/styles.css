@@ -11,6 +11,7 @@
 
 .glitch {
   animation: glitch 1s infinite;
+  font-size: 2rem;
 }
 
 body {
