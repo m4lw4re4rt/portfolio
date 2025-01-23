@@ -202,6 +202,7 @@ footer {
 
 .preview-item:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 10px cyan;
 }
 
 /* Styles for Contact Section */
@@ -349,6 +350,7 @@ footer {
 
 .portrait-item:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 10px cyan;
 }
 
 /* Styles for Hobbies Section */
@@ -369,10 +371,6 @@ footer {
   transition: transform 0.3s ease;
   border: #fff 2px solid;
   box-shadow: 0 0 10px cyan;
-}
-
-.hobby-item:hover {
-  transform: scale(1.05);
 }
 
 /* Styles for Convention Calendar Section */
@@ -416,6 +414,7 @@ footer {
 
 .convention-item:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 20px cyan;
 }
 
 .month {
@@ -482,6 +481,7 @@ footer {
 .social-links a:hover {
   background: #5a6fb2;
   transform: scale(1.05);
+  box-shadow: 0 0 20px cyan;
 }
 
 /* Styles for Portfolio Section */
@@ -516,7 +516,7 @@ footer {
 
 .project-item:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px cyan;
 }
 
 /* Styles for Concept Art Gallery Section */
@@ -581,6 +581,7 @@ footer {
 
 .gallery a:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 20px cyan;
 }
 
 /* Custom Lightbox Styles */
