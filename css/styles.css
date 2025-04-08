@@ -126,6 +126,13 @@ header {
   transition: background-color 0.3s ease;
 }
 
+header img {
+  max-width: 100px; /* Adjust the size of the logo */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 nav ul {
   list-style: none;
   display: flex;
