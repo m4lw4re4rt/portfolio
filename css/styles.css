@@ -822,6 +822,12 @@ hr {
   body {
     font-size: 0.9rem;
   }
+
+  header {
+    padding: 10px;
+    position: static;
+  }
+
   nav ul {
     flex-direction: column;
     align-items: center;
