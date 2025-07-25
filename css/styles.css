@@ -718,3 +718,199 @@ hr {
   color: var(--ink);
   text-decoration: underline;
 }
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav li {
+    margin: 10px 0;
+  }
+  .container {
+    padding: 1rem;
+  }
+  #hero {
+    padding: 50px 10px;
+  }
+  #hero h1 {
+    font-size: 2rem;
+  }
+  #hero p {
+    font-size: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: 1rem;
+  }
+  .logo img {
+    max-width: 120px;
+  }
+  header img {
+    max-width: 80px;
+  }
+  #about .intro-image {
+    max-width: 100%;
+  }
+  #about .intro-text {
+    max-width: 100%;
+  }
+  #preview-images .preview-gallery {
+    grid-template-columns: 1fr;
+  }
+  #contact form {
+    width: 100%;
+  }
+  #contact input,
+  #contact textarea {
+    width: 100%;
+  }
+  #introduction .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #introduction .intro-image {
+    max-width: 100%;
+  }
+  #introduction .intro-text {
+    max-width: 100%;
+  }
+  #cv .cv-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  #self-portraits .portrait-gallery {
+    grid-template-columns: 1fr;
+  }
+  #hobbies .hobbies-grid {
+    grid-template-columns: 1fr;
+  }
+  #portfolio .project-gallery {
+    grid-template-columns: 1fr;
+  }
+  #convention-calendar .calendar {
+    grid-template-columns: 1fr;
+  }
+  #convention-calendar .month {
+    margin: 0 auto;
+  }
+  #convention-calendar .events {
+    margin-top: 10px;
+  }
+  #convention-calendar .event {
+    margin-bottom: 10px;
+  }
+  #convention-calendar .status {
+    font-size: 0.8rem;
+  }
+  .past-conventions ul li {
+    font-size: 1rem;
+  }
+  .past-conventions ul li a {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav li {
+    margin: 5px 0;
+  }
+  #hero {
+    padding: 30px 10px;
+  }
+  #hero h1 {
+    font-size: 1.5rem;
+  }
+  #hero p {
+    font-size: 0.9rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: 0.8rem;
+  }
+  .logo img {
+    max-width: 100px;
+  }
+  header img {
+    max-width: 60px;
+  }
+  #about .intro-image {
+    max-width: 100%;
+  }
+  #about .intro-text {
+    max-width: 100%;
+  }
+  #preview-images .preview-gallery {
+    grid-template-columns: 1fr;
+  }
+  #contact form {
+    width: 100%;
+  }
+  #contact input,
+  #contact textarea {
+    width: 100%;
+  }
+  #introduction .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #introduction .intro-image {  
+    max-width: 100%;
+  }
+  #introduction .intro-text {
+    max-width: 100%;
+  }
+  #cv .cv-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  #self-portraits .portrait-gallery {
+    grid-template-columns: 1fr;
+  }
+  #hobbies .hobbies-grid {
+    grid-template-columns: 1fr;
+  }
+  #portfolio .project-gallery {
+    grid-template-columns: 1fr;
+  }
+  #convention-calendar .calendar {
+    grid-template-columns: 1fr;
+  }
+  #convention-calendar .month {
+    margin: 0 auto;
+  }
+  #convention-calendar .events {
+    margin-top: 10px;
+  }
+  #convention-calendar .event {
+    margin-bottom: 10px;
+  }
+  #convention-calendar .status {
+    font-size: 0.8rem;
+  }
+  .past-conventions ul li {
+    font-size: 0.9rem;
+  }
+  .past-conventions ul li a {
+    font-size: 0.9rem;
+  }
+}
+/* Print Styles */
